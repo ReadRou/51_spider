@@ -26,6 +26,8 @@
 ```shell
 crawler
 mongoose
+MongoDB
+nodejs
 ```
 
 
@@ -33,7 +35,7 @@ mongoose
 ## 安装 & 使用：
 
 ``` shell
-git clone 
+git clone https://github.com/ReadRou/51_spider.git
 npm i
 node listCrawler.js
 ```
