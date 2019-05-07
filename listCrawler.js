@@ -49,21 +49,21 @@ const ListCrawler = new Crawler({
 
         $('#resultList > .el > .t3').each(function (_, value) {
             $(function () {
-                let data = value.children.pop().data
+                let data = value.children.pop().data1
                 if (data !== '工作地点') locationArray.push(data)
             })
         })
 
         $('#resultList > .el > .t4').each(function (_, value) {
             $(function () {
-                let data = value.children.pop().data
+                let data = value.children.pop().data1
                 if (data !== '薪资') salaryArray.push(data)
             })
         })
 
         $('#resultList > .el > .t5').each(function (_, value) {
             $(function () {
-                let data = value.children.pop().data
+                let data = value.children.pop().data1
                 if (data !== '发布时间') timeArray.push(data)
             })
         })

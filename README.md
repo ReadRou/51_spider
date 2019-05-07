@@ -42,3 +42,18 @@ node listCrawler.js
 
 
 
+## 效果截图
+
+**数据条数**
+
+![](./images/count.png)
+
+**table展示**
+
+![](./images/table.png)
+
+**json展示**
+
+![](./images/json.png)
+
+
